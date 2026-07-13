@@ -21,7 +21,10 @@ A modern, responsive personal portfolio website built to showcase my skills, pro
 - JavaScript
 - Font Awesome
 - Responsive Web Design
-## Portfolio-website
+## 📁 Project Structure
+
+```text
+Portfolio-website/
 │
 ├── images/
 │   ├── background.png
@@ -34,6 +37,9 @@ A modern, responsive personal portfolio website built to showcase my skills, pro
 ├── index.html
 ├── Navneet_Kumar_Resume.pdf
 ├── README.md
+├── script.js
+└── style.css
+```
 ├── script.js
 └── style.css
    
