@@ -40,6 +40,5 @@ Portfolio-website/
 ├── script.js
 └── style.css
 ```
-├── script.js
-└── style.css
+
    
