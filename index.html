@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Navneet Kumar | React Developer</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ================= HEADER ================= -->
+
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="Logo" />
+
+          <div class="menu-btn">☰</div>
+
+          <ul>
+            <li><a href="#header">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#services">Services</a></li>
+
+            <li><a href="#portfolio">Portfolio</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-text">
+          <p>React Developer</p>
+
+          <h1>
+            Hi, I'm <span>Navneet</span><br />
+
+            Kumar From India
+          </h1>
+
+          <a href="Navneet_Kumar_Resume.pdf" download class="btn">
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Profile pic.jpeg" alt="Profile" />
+          </div>
+
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+
+            <p>
+              I am a passionate React Developer with a strong foundation in
+              HTML, CSS, JavaScript, and React.js. I enjoy building responsive,
+              user-friendly, and modern web applications. I am continuously
+              learning new technologies and improving my problem-solving skills.
+              My goal is to create impactful digital experiences while growing
+              as a full-stack developer.
+            </p>
+
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab('skills', this)"
+              >
+                Skills
+              </p>
+
+              <p class="tab-links" onclick="opentab('experience', this)">
+                Experience
+              </p>
+
+              <p class="tab-links" onclick="opentab('education', this)">
+                Education
+              </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend</span><br />
+                  HTML, CSS, JavaScript, React.js
+                </li>
+
+                <li>
+                  <span>UI/UX</span><br />
+                  Responsive Web Interface Design
+                </li>
+
+                <li>
+                  <span>Tools</span><br />
+                  Git, GitHub, Vite, API Integration
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2025 - Present</span><br />
+
+                  React Developer (Projects & Self Learning)
+                </li>
+
+                <li>
+                  <span>2024 - Present</span><br />
+
+                  Building responsive websites using React.js
+                </li>
+
+                <li>
+                  <span>2026</span><br />
+
+                  Developing E-Commerce and Management Applications
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021 - 2025</span><br />
+
+                  B.Tech Computer Science & Engineering<br />
+
+                  MAKAUT University (CGPA - 7.36)
+                </li>
+
+                <li>
+                  <span>2019 - 2021</span><br />
+
+                  Higher Secondary (Class XII)<br />
+
+                  BSEB Board (77.4%)
+                </li>
+
+                <li>
+                  <span>2017 - 2019</span><br />
+
+                  Secondary (Class X)<br />
+
+                  CBSE Board (79.8%)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+
+    <section id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+
+        <div class="services-list">
+          <div>
+            <h2>Web Development</h2>
+
+            <p>
+              Creating responsive and modern websites using HTML, CSS,
+              JavaScript and React.js.
+            </p>
+          </div>
+
+          <div>
+            <h2>UI/UX Design</h2>
+
+            <p>Designing clean and user-friendly interfaces.</p>
+          </div>
+
+          <div>
+            <h2>Frontend Development</h2>
+
+            <p>Building interactive applications using React components.</p>
+          </div>
+
+          <div>
+            <h2>React Application Development</h2>
+
+            <p>Developing scalable SPA applications using React Hooks.</p>
+          </div>
+
+          <div>
+            <h2>API Integration</h2>
+
+            <p>Connecting applications with REST APIs using Fetch and Axios.</p>
+          </div>
+
+          <div>
+            <h2>Deployment</h2>
+
+            <p>Deploying websites using Netlify, Vercel and GitHub.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+
+    <section id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.jpg" />
+
+            <div class="layer">
+              <h3>E-Commerce Website</h3>
+
+              <p>
+                Built a responsive E-Commerce website using React.js with
+                product listing, cart functionality, and modern UI design.
+              </p>
+              <a href="https://shoppulsebulid.netlify.app/" target="_blank">
+                Live Demo →
+              </a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-2.jpg" />
+
+            <div class="layer">
+              <h3>Book Management System</h3>
+
+              <p>
+                Developed a Book Management application using React.js and JSON
+                Server with complete CRUD operations.
+              </p>
+              <a
+                href="https://book-managementbynavneet.netlify.app/"
+                target="_blank"
+              >
+                Live Demo →
+              </a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/work-3.png" />
+
+            <div class="layer">
+              <h3>Portfolio Website</h3>
+
+              <p>
+                Created a responsive personal portfolio website using HTML, CSS,
+                and JavaScript with modern UI and smooth navigation.
+              </p>
+              <a href="https://buildbynavneet.netlify.app/" target="_blank">
+                Live Demo →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+      <div class="container">
+        <h1 class="subtitle">Contact Me</h1>
+
+        <div class="contact-row">
+          <div class="contact-left">
+            <p>Email: navneetsingh70mth@gmail.com</p>
+
+            <p>Phone: +91 8877777777</p>
+          </div>
+
+          <div class="contact-right">
+            <form id="contact-form">
+              <input type="text" name="name" placeholder="Your Name" required />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              >
+              </textarea>
+
+              <button class="btn">Submit</button>
+            </form>
+
+            <p id="msg"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
